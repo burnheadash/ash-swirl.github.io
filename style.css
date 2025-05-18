@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+body{
+    height: 100%;
+    width: 100vw;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+header{
+    background:#f5576c;
+    display: flex;
+}
+.logo{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+ul{
+    display: flex;
+    margin-left: 50px;
+    padding: 20px;
+    gap: 50px;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    width: 150px;
+    height: 60px;
+    font-size: larger;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 100px;
+}
+
+button:hover{
+    transform: scale(1.5);
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 150px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+img:hover{
+    border: 4px solid #f5576c;
+    transform: rotate(-30deg);
+}
+
+footer{
+    background-color: azure;
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+
+}
+#strike{
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+h2{
+    margin-left: 200px;
+}
